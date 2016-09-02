@@ -12,8 +12,16 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 /**
- *
- * @author Kieran
+ * This application is used to command and survey a 3DPrintMe photogrammetry
+ * capture system.
+ * 
+ * @author 3DPrintMe Developer Team
+ *          - Kieran Hannigan
+ *          - James Ji
+ *          - Daniel Sun
+ *          - Yunbai Chen
+ *          - Qiang Shen
+ *          - Chaoyan Ye
  */
 public class Main extends Application {
     
