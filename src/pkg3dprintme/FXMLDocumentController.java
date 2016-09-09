@@ -88,6 +88,10 @@ public class FXMLDocumentController implements Initializable {
         }
         
         private boolean checkMap(HashMap<String, Integer> hostTable) {
+            return hostTable.entrySet().stream().noneMatch((entry) -> (!checkEntry(entry)));
+        }
+
+        private boolean checkEntry(HashMap.Entry<String, Integer> entry) {
             return false;
         }
 
